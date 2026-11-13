@@ -1,0 +1,61 @@
+﻿id,section,original_text,devanagari_text,vocal_onset_s,vocal_end_s,display_start_s,display_end_s,start_frame,end_frame,animation,scene_id,nearest_beat_s,onset_to_beat_ms,onset_snapped,sync_confidence
+V1_L1,Verse 1,Kyun aise main takta hoon,क्यूँ ऐसे मैं तकता हूँ,24.1,27.0,24.0,27.24,720,817,fade-rise,scene_V1_L1,24.079,21,False,asr-only (est. +/-0.3s)
+V1_L2,Verse 1,Teri baatein kyun karta hoon,तेरी बातें क्यूँ करता हूँ,27.36,29.9,27.26,29.88,818,896,word-reveal,scene_V1_L2,27.237,123,False,asr-only (est. +/-0.3s)
+V1_L3,Verse 1,Main tum par kyun marta hoon,मैं तुम पर क्यूँ मरता हूँ,30.0,32.7,29.9,32.72,897,982,fade-rise,scene_V1_L3,30.023,23,False,asr-only (est. +/-0.3s)
+V1_L4,Verse 1,Tum khud hi dekho…,तुम खुद ही देखो…,32.84,35.2,32.74,35.499,982,1065,scale-in,scene_V1_L4,32.833,7,False,asr-only (est. +/-0.3s)
+V2_L1,Verse 2,Mere haathon ki lakeeron mein,मेरे हाथों की लकीरों में,35.619,38.7,35.519,39.017,1066,1171,mask-reveal,scene_V2_L1,35.619,0,True,asr+onset-snapped (est. +/-0.2s)
+V2_L2,Verse 2,Tera kuchh apna hai,तेरा कुछ अपना है,39.137,40.9,39.037,41.08,1171,1232,fade-rise,scene_V2_L2,39.102,35,True,asr+onset-snapped (est. +/-0.2s)
+V2_L3,Verse 2,Main kisse kya kahunga,मैं किस्से क्या कहूँगा,41.2,43.8,41.1,43.92,1233,1318,word-reveal,scene_V2_L3,41.215,15,False,asr-only (est. +/-0.3s)
+V2_L4,Verse 2,Tum aakar dekho…,तुम आकर देखो…,44.04,46.4,43.94,46.62,1318,1399,fade-rise,scene_V2_L4,44.002,38,False,asr-only (est. +/-0.3s)
+PC1_L1,Pre-Chorus 1,Main dil ki baat apne,मैं दिल की बात अपने,46.74,49.5,46.64,49.675,1399,1490,fade-rise,scene_PC1_L1,46.765,25,False,asr-only (est. +/-0.3s)
+PC1_L2,Pre-Chorus 1,Tere dil se hi kahunga,तेरे दिल से ही कहूँगा,49.795,51.8,49.695,51.881,1491,1556,word-reveal,scene_PC1_L2,49.923,128,True,asr+onset-snapped (est. +/-0.2s)
+PC1_L3,Pre-Chorus 1,Main kaayar chaahe jitna (Aa),मैं कायर चाहे जितना (आ),52.001,54.6,51.901,54.667,1557,1640,fade-rise,scene_PC1_L3,52.013,12,True,asr+onset-snapped (est. +/-0.2s)
+PC1_L4,Pre-Chorus 1,Par milkar hi kahunga,पर मिलकर ही कहूँगा,54.787,57.0,54.687,56.931,1641,1708,fade-rise,scene_PC1_L4,54.799,12,True,asr+onset-snapped (est. +/-0.2s)
+PC1_L5,Pre-Chorus 1,Main milkar hi kahunga,मैं मिलकर ही कहूँगा,57.051,59.7,56.951,59.776,1709,1793,word-reveal,scene_PC1_L5,56.889,162,True,asr+onset-snapped (est. +/-0.2s)
+PC1_L6,Pre-Chorus 1,Tum sun lena (Aa…),तुम सुन लेना (आ…),59.896,63.2,59.796,63.65,1794,1910,scale-in,scene_PC1_L6,60.047,151,True,asr+onset-snapped (est. +/-0.2s)
+C1_L1,Chorus 1,Kyun aise main takta hoon?,क्यूँ ऐसे मैं तकता हूँ?,65.7,68.9,65.6,69.145,1968,2074,fade-rise,scene_C1_L1,65.62,80,False,asr-only (est. +/-0.3s)
+C1_L2,Chorus 1,Teri baatein kyun karta hoon,तेरी बातें क्यूँ करता हूँ,69.265,71.9,69.165,72.02,2075,2161,word-reveal,scene_C1_L2,69.103,162,True,asr+onset-snapped (est. +/-0.2s)
+C1_L3,Chorus 1,Main tum par kyun marta hoon,मैं तुम पर क्यूँ मरता हूँ,72.14,74.7,72.04,74.78,2161,2243,fade-rise,scene_C1_L3,72.237,97,False,asr-only (est. +/-0.3s)
+C1_L4,Chorus 1,Tum khud hi dekho…,तुम खुद ही देखो…,74.9,77.3,74.8,77.75,2244,2332,fade-rise,scene_C1_L4,75.0,100,False,asr-only (est. +/-0.3s)
+C1_L5,Chorus 1,Dekho na (Aa…),देखो ना (आ…),78.4,80.6,78.3,81.05,2349,2432,scale-in,scene_C1_L5,78.53,130,False,asr-only (est. +/-0.3s)
+PO_L1,Post-Chorus,Sa sa sa re ga sa…,सा सा सा रे ग सा…,81.827,84.1,81.727,84.47,2452,2534,word-reveal,scene_PO_L1,81.665,162,True,"inferred (pitch/structure, est. +/-0.3s)"
+PO_L2,Post-Chorus,Sa sa sa re ga sa…,सा सा सा रे ग सा…,84.59,86.7,84.49,86.88,2535,2606,word-reveal,scene_PO_L2,84.451,139,True,"inferred (pitch/structure, est. +/-0.3s)"
+PO_L3,Post-Chorus,Ma ga re ga sa…,म ग रे ग सा…,87.0,89.0,86.9,89.45,2607,2684,word-reveal,scene_PO_L3,86.889,111,False,"inferred (pitch/structure, est. +/-0.3s)"
+V3_L1,Verse 3,Kya main kahoon… jo tu sun le…,क्या मैं कहूँ… जो तू सुन ले…,102.9,112.3,102.8,112.58,3084,3377,mask-reveal,scene_V3_L1,102.934,34,False,"inferred (pitch/structure, est. +/-0.3s)"
+V3_L2,Verse 3,Laakhon chehron mein… tu mujhe chun le (Ae…),लाखों चेहरों में… तू मुझे चुन ले (ए…),112.7,123.2,112.6,123.65,3378,3710,mask-reveal,scene_V3_L2,112.71,10,False,asr-only (est. +/-0.3s)
+V3_L3,Verse 3,Do kadam hi sahi… mere sang toh chal,दो कदम ही सही… मेरे संग तो चल,124.575,134.7,124.475,134.88,3734,4046,mask-reveal,scene_V3_L3,124.575,0,True,asr+onset-snapped (est. +/-0.2s)
+V3_L4,Verse 3,Yoon jee loon main zindagi… apne inn do pal (Hmm…),यूँ जी लूँ मैं ज़िंदगी… अपने इन दो पल (हम्म…),135.0,147.2,134.9,147.65,4047,4429,mask-reveal,scene_V3_L4,135.047,47,False,asr-only (est. +/-0.3s)
+V4_L1,Verse 4,"Haan, kyun karta hai bahaane","हाँ, क्यूँ करता है बहाने",151.7,154.7,151.6,155.02,4548,4651,fade-rise,scene_V4_L1,151.696,4,False,asr-only (est. +/-0.3s)
+V4_L2,Verse 4,Tu kitna bekhabar hai?,तू कितना बेखबर है?,155.14,157.9,155.04,158.02,4651,4741,fade-rise,scene_V4_L2,155.249,109,False,asr-only (est. +/-0.3s)
+V4_L3,Verse 4,Kaise tu yeh naa jaane (Ae),कैसे तू ये ना जाने (ए),158.14,160.9,158.04,160.92,4741,4828,word-reveal,scene_V4_L3,158.058,82,False,asr-only (est. +/-0.3s)
+V4_L4,Verse 4,Dil kitna besabar hai,दिल कितना बेसब्र है,161.04,163.5,160.94,163.64,4828,4909,fade-rise,scene_V4_L4,161.193,153,False,asr-only (est. +/-0.3s)
+V4_L5,Verse 4,Meri aankhon ke ishaare,मेरी आँखों के इशारे,163.76,166.2,163.66,166.297,4910,4989,fade-rise,scene_V4_L5,163.631,129,False,asr-only (est. +/-0.3s)
+V4_L6,Verse 4,Tum samjho naa (Aa…),तुम समझो ना (आ…),166.417,169.3,166.317,169.75,4990,5092,scale-in,scene_V4_L6,166.394,23,True,asr+onset-snapped (est. +/-0.2s)
+V5_L1,Verse 5,Dil tere bin dhadke naa,दिल तेरे बिन धड़के ना,171.7,174.9,171.6,175.06,5148,5252,fade-rise,scene_V5_L1,171.688,12,False,asr-only (est. +/-0.3s)
+V5_L2,Verse 5,Meri palkein bhi jhapke naa,मेरी पलकें भी झपके ना,175.18,177.687,175.08,177.617,5252,5329,fade-rise,scene_V5_L2,175.171,9,False,asr-only (est. +/-0.3s)
+V5_L3,Verse 5,Har pal tujhko main dekhoon,हर पल तुझको मैं देखूँ,177.737,180.4,177.637,180.404,5329,5412,word-reveal,scene_V5_L3,177.609,128,True,asr+onset-snapped (est. +/-0.2s)
+V5_L4,Verse 5,Tu kyun naa jaane (Ae),तू क्यूँ ना जाने (ए),180.524,182.7,180.424,182.76,5413,5483,fade-rise,scene_V5_L4,180.373,151,True,asr+onset-snapped (est. +/-0.2s)
+V5_L5,Verse 5,Chal aa tujhko bata doon,चल आ तुझको बता दूँ,182.88,186.0,182.78,186.0,5483,5580,fade-rise,scene_V5_L5,182.834,46,False,asr-only (est. +/-0.3s)
+V5_L6,Verse 5,Meri chahat kaa afsaana,मेरी चाहत का अफ़साना,186.12,188.891,186.02,188.821,5581,5665,mask-reveal,scene_V5_L6,185.969,151,True,asr+onset-snapped (est. +/-0.2s)
+V5_L7,Verse 5,Jo tujhko maine paaya,जो तुझको मैंने पाया,188.941,191.6,188.841,191.781,5665,5753,fade-rise,scene_V5_L7,189.103,162,True,asr+onset-snapped (est. +/-0.2s)
+V5_L8,Verse 5,Toh maine jaana (Aa),तो मैंने जाना (आ),191.901,194.0,191.801,194.0,5754,5820,scale-in,scene_V5_L8,191.89,11,True,asr+onset-snapped (est. +/-0.2s)
+PC2_L1,Pre-Chorus 2,Mere haathon mein yeh mehendi,मेरे हाथों में ये मेहंदी,194.12,197.4,194.02,197.586,5821,5928,fade-rise,scene_PC2_L1,194.003,117,False,asr-only (est. +/-0.3s)
+PC2_L2,Pre-Chorus 2,Tere hone se saji hai,तेरे होने से सजी है,197.706,200.1,197.606,200.14,5928,6004,word-reveal,scene_PC2_L2,197.834,128,True,asr+onset-snapped (est. +/-0.2s)
+PC2_L3,Pre-Chorus 2,Meri payal jo yeh khanke (Ae),मेरी पायल जो ये खनके (ए),200.26,202.97,200.16,202.9,6005,6087,fade-rise,scene_PC2_L3,200.272,12,True,asr+onset-snapped (est. +/-0.2s)
+PC2_L4,Pre-Chorus 2,Mano tumse keh rahi hai,मानो तुमसे कह रही है,203.02,205.9,202.92,206.12,6088,6184,fade-rise,scene_PC2_L4,203.059,39,False,asr-only (est. +/-0.3s)
+PC2_L5,Pre-Chorus 2,Tumse jo keh rahi hai,तुमसे जो कह रही है,206.24,208.6,206.14,208.871,6184,6266,word-reveal,scene_PC2_L5,206.193,47,True,asr+onset-snapped (est. +/-0.2s)
+PC2_L6,Pre-Chorus 2,Tum sun lo naa (Aa…),तुम सुन लो ना (आ…),208.991,211.0,208.891,210.94,6267,6328,scale-in,scene_PC2_L6,208.91,81,True,asr+onset-snapped (est. +/-0.2s)
+FC_L1,Final Chorus,Kyun aise main takti hoon,क्यूँ ऐसे मैं तकती हूँ,211.06,213.9,210.96,214.096,6329,6423,fade-rise,scene_FC_L1,211.093,33,False,asr-only (est. +/-0.3s)
+FC_L2,Final Chorus,Teri baatein kyun karti hoon,तेरी बातें क्यूँ करती हूँ,214.216,216.9,214.116,217.06,6423,6512,word-reveal,scene_FC_L2,214.227,11,True,asr+onset-snapped (est. +/-0.2s)
+FC_L3,Final Chorus,Main tum par kyun marti hoon,मैं तुम पर क्यूँ मरती हूँ,217.18,219.7,217.08,219.8,6512,6594,fade-rise,scene_FC_L3,217.014,166,False,asr-only (est. +/-0.3s)
+FC_L4,Final Chorus,Tum khud hi dekho (Oh…),तुम खुद ही देखो (ओह…),219.92,222.2,219.82,222.28,6595,6668,scale-in,scene_FC_L4,219.8,120,False,asr-only (est. +/-0.3s)
+FC_L5,Final Chorus,Mere haathon ki lakeeron mein,मेरे हाथों की लकीरों में,222.4,225.4,222.3,225.56,6669,6767,mask-reveal,scene_FC_L5,222.238,162,False,asr-only (est. +/-0.3s)
+FC_L6,Final Chorus,Tera kuchh apna hai,तेरा कुछ अपना है,225.68,227.9,225.58,227.9,6767,6837,fade-rise,scene_FC_L6,225.744,64,False,asr-only (est. +/-0.3s)
+FC_L7,Final Chorus,Main kisse kya kahungi,मैं किस्से क्या कहूँगी,228.02,230.6,227.92,230.82,6838,6925,word-reveal,scene_FC_L7,228.182,162,True,asr+onset-snapped (est. +/-0.2s)
+FC_L8,Final Chorus,Tum aakar dekho…,तुम आकर देखो…,230.94,232.8,230.84,233.13,6925,6994,fade-rise,scene_FC_L8,230.969,29,False,asr-only (est. +/-0.3s)
+FC_L9,Final Chorus,Dekho naa (Aa…),देखो ना (आ…),233.25,235.9,233.15,236.35,6994,7090,scale-in,scene_FC_L9,233.43,180,False,"inferred (pitch/structure, est. +/-0.3s)"
+INSTRUMENTAL,Intro (instrumental),,,,,0.0,24.0,0,720,,,,,,
+INSTRUMENTAL,Instrumental gap before Chorus 1,,,,,63.2,65.7,1896,1971,,,,,,
+INSTRUMENTAL,Hook (instrumental break),,,,,89.0,102.9,2670,3087,,,,,,
+INSTRUMENTAL,Instrumental interlude before Verse 4,,,,,147.2,151.7,4416,4551,,,,,,
+INSTRUMENTAL,Outro (silence / fade),,,,,235.9,241.348209,7077,7240,,,,,,

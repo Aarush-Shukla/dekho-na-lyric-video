@@ -1,0 +1,22 @@
+{
+  "name": "dekho-na-lyric-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "validate": "node ../scripts/validate_lyrics.mjs",
+    "render": "remotion render src/index.ts DekhoNa ../output/Dekho_Na_Final_1080x1920.mp4 --codec=h264 --pixel-format=yuv420p --crf=16 --color-space=bt709 --audio-codec=aac --concurrency=4"
+  },
+  "dependencies": {
+    "@fontsource/noto-serif-devanagari": "5.1.0",
+    "@fontsource/noto-sans-devanagari": "5.1.0",
+    "@remotion/cli": "4.0.250",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.250"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "typescript": "5.5.4"
+  }
+}

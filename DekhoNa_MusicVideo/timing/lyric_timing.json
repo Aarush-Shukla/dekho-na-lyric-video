@@ -1,0 +1,2894 @@
+{
+  "song": "Dekho Na",
+  "artist": "Saksham",
+  "audio_file": "Dekho Na(KoshalWorld.Com).mp3 (copied to assets/audio/original_song.mp3, untouched)",
+  "fps": 30,
+  "resolution": "1080x1920",
+  "duration_seconds": 241.348,
+  "duration_frames": 7241,
+  "tempo_bpm": 86.13,
+  "tempo_note": "librosa beat tracker with start_bpm=86 -> 86.13 BPM (0.6966 s/beat)",
+  "timing_method": "ASR (faster-whisper small, Hindi) used as rough anchors; each line start snapped to the nearest strong vocal-band onset (+/-0.35 s); sustained notes/pickups cross-checked with pyin pitch tracking; structure checked against 86 BPM bar grid. NOT verified by human listening.",
+  "instrumental_sections": [
+    {
+      "name": "Intro (instrumental)",
+      "start_seconds": 0.0,
+      "end_seconds": 24.0,
+      "note": "no vocal detected before ~23.6 s (ASR on 12-25 s returned nothing)",
+      "start_frame": 0,
+      "end_frame": 720
+    },
+    {
+      "name": "Instrumental gap before Chorus 1",
+      "start_seconds": 63.2,
+      "end_seconds": 65.7,
+      "start_frame": 1896,
+      "end_frame": 1971
+    },
+    {
+      "name": "Hook (instrumental break)",
+      "start_seconds": 89.0,
+      "end_seconds": 102.9,
+      "note": "sparse notes only; quiet lull ~101-103 s then band re-entry",
+      "start_frame": 2670,
+      "end_frame": 3087
+    },
+    {
+      "name": "Instrumental interlude before Verse 4",
+      "start_seconds": 147.2,
+      "end_seconds": 151.7,
+      "start_frame": 4416,
+      "end_frame": 4551
+    },
+    {
+      "name": "Outro (silence / fade)",
+      "start_seconds": 235.9,
+      "end_seconds": 241.348209,
+      "note": "audio decays to digital silence by ~237 s",
+      "start_frame": 7077,
+      "end_frame": 7240
+    }
+  ],
+  "entries": [
+    {
+      "id": "V1_L1",
+      "section": "Verse 1",
+      "section_id": "V1",
+      "original_text": "Kyun aise main takta hoon",
+      "devanagari_text": "क्यूँ ऐसे मैं तकता हूँ",
+      "vocal_onset_seconds": 24.1,
+      "vocal_end_seconds": 27.0,
+      "display_start_seconds": 24.0,
+      "display_end_seconds": 27.24,
+      "start_seconds": 24.0,
+      "end_seconds": 27.24,
+      "start_frame": 720,
+      "end_frame": 817,
+      "vocal_onset_frame": 723,
+      "word_timings": [
+        {
+          "word": "Kyun",
+          "start_seconds": 24.1,
+          "end_seconds": 24.514
+        },
+        {
+          "word": "aise",
+          "start_seconds": 24.514,
+          "end_seconds": 25.343
+        },
+        {
+          "word": "main",
+          "start_seconds": 25.343,
+          "end_seconds": 25.757
+        },
+        {
+          "word": "takta",
+          "start_seconds": 25.757,
+          "end_seconds": 26.586
+        },
+        {
+          "word": "hoon",
+          "start_seconds": 26.586,
+          "end_seconds": 27.0
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V1_L1",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 24.079,
+      "onset_to_beat_ms": 21,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 24.1,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V1_L2",
+      "section": "Verse 1",
+      "section_id": "V1",
+      "original_text": "Teri baatein kyun karta hoon",
+      "devanagari_text": "तेरी बातें क्यूँ करता हूँ",
+      "vocal_onset_seconds": 27.36,
+      "vocal_end_seconds": 29.9,
+      "display_start_seconds": 27.26,
+      "display_end_seconds": 29.88,
+      "start_seconds": 27.26,
+      "end_seconds": 29.88,
+      "start_frame": 818,
+      "end_frame": 896,
+      "vocal_onset_frame": 821,
+      "word_timings": [
+        {
+          "word": "Teri",
+          "start_seconds": 27.36,
+          "end_seconds": 27.995
+        },
+        {
+          "word": "baatein",
+          "start_seconds": 27.995,
+          "end_seconds": 28.63
+        },
+        {
+          "word": "kyun",
+          "start_seconds": 28.63,
+          "end_seconds": 28.947
+        },
+        {
+          "word": "karta",
+          "start_seconds": 28.947,
+          "end_seconds": 29.582
+        },
+        {
+          "word": "hoon",
+          "start_seconds": 29.582,
+          "end_seconds": 29.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V1_L2",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 27.237,
+      "onset_to_beat_ms": 123,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 27.36,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V1_L3",
+      "section": "Verse 1",
+      "section_id": "V1",
+      "original_text": "Main tum par kyun marta hoon",
+      "devanagari_text": "मैं तुम पर क्यूँ मरता हूँ",
+      "vocal_onset_seconds": 30.0,
+      "vocal_end_seconds": 32.7,
+      "display_start_seconds": 29.9,
+      "display_end_seconds": 32.72,
+      "start_seconds": 29.9,
+      "end_seconds": 32.72,
+      "start_frame": 897,
+      "end_frame": 982,
+      "vocal_onset_frame": 900,
+      "word_timings": [
+        {
+          "word": "Main",
+          "start_seconds": 30.0,
+          "end_seconds": 30.386
+        },
+        {
+          "word": "tum",
+          "start_seconds": 30.386,
+          "end_seconds": 30.771
+        },
+        {
+          "word": "par",
+          "start_seconds": 30.771,
+          "end_seconds": 31.157
+        },
+        {
+          "word": "kyun",
+          "start_seconds": 31.157,
+          "end_seconds": 31.543
+        },
+        {
+          "word": "marta",
+          "start_seconds": 31.543,
+          "end_seconds": 32.314
+        },
+        {
+          "word": "hoon",
+          "start_seconds": 32.314,
+          "end_seconds": 32.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V1_L3",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 30.023,
+      "onset_to_beat_ms": 23,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 30.0,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V1_L4",
+      "section": "Verse 1",
+      "section_id": "V1",
+      "original_text": "Tum khud hi dekho…",
+      "devanagari_text": "तुम खुद ही देखो…",
+      "vocal_onset_seconds": 32.84,
+      "vocal_end_seconds": 35.2,
+      "display_start_seconds": 32.74,
+      "display_end_seconds": 35.499,
+      "start_seconds": 32.74,
+      "end_seconds": 35.499,
+      "start_frame": 982,
+      "end_frame": 1065,
+      "vocal_onset_frame": 985,
+      "word_timings": [
+        {
+          "word": "Tum",
+          "start_seconds": 32.84,
+          "end_seconds": 33.233
+        },
+        {
+          "word": "khud",
+          "start_seconds": 33.233,
+          "end_seconds": 33.627
+        },
+        {
+          "word": "hi",
+          "start_seconds": 33.627,
+          "end_seconds": 34.02
+        },
+        {
+          "word": "dekho…",
+          "start_seconds": 34.02,
+          "end_seconds": 35.2
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V1_L4",
+      "animation": "scale-in",
+      "nearest_beat_seconds": 32.833,
+      "onset_to_beat_ms": 7,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 32.84,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V2_L1",
+      "section": "Verse 2",
+      "section_id": "V2",
+      "original_text": "Mere haathon ki lakeeron mein",
+      "devanagari_text": "मेरे हाथों की लकीरों में",
+      "vocal_onset_seconds": 35.619,
+      "vocal_end_seconds": 38.7,
+      "display_start_seconds": 35.519,
+      "display_end_seconds": 39.017,
+      "start_seconds": 35.519,
+      "end_seconds": 39.017,
+      "start_frame": 1066,
+      "end_frame": 1171,
+      "vocal_onset_frame": 1069,
+      "word_timings": [
+        {
+          "word": "Mere",
+          "start_seconds": 35.619,
+          "end_seconds": 36.304
+        },
+        {
+          "word": "haathon",
+          "start_seconds": 36.304,
+          "end_seconds": 36.988
+        },
+        {
+          "word": "ki",
+          "start_seconds": 36.988,
+          "end_seconds": 37.331
+        },
+        {
+          "word": "lakeeron",
+          "start_seconds": 37.331,
+          "end_seconds": 38.358
+        },
+        {
+          "word": "mein",
+          "start_seconds": 38.358,
+          "end_seconds": 38.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V2_L1",
+      "animation": "mask-reveal",
+      "nearest_beat_seconds": 35.619,
+      "onset_to_beat_ms": 0,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 35.42,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V2_L2",
+      "section": "Verse 2",
+      "section_id": "V2",
+      "original_text": "Tera kuchh apna hai",
+      "devanagari_text": "तेरा कुछ अपना है",
+      "vocal_onset_seconds": 39.137,
+      "vocal_end_seconds": 40.9,
+      "display_start_seconds": 39.037,
+      "display_end_seconds": 41.08,
+      "start_seconds": 39.037,
+      "end_seconds": 41.08,
+      "start_frame": 1171,
+      "end_frame": 1232,
+      "vocal_onset_frame": 1174,
+      "word_timings": [
+        {
+          "word": "Tera",
+          "start_seconds": 39.137,
+          "end_seconds": 39.725
+        },
+        {
+          "word": "kuchh",
+          "start_seconds": 39.725,
+          "end_seconds": 40.018
+        },
+        {
+          "word": "apna",
+          "start_seconds": 40.018,
+          "end_seconds": 40.606
+        },
+        {
+          "word": "hai",
+          "start_seconds": 40.606,
+          "end_seconds": 40.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V2_L2",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 39.102,
+      "onset_to_beat_ms": 35,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 39.04,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V2_L3",
+      "section": "Verse 2",
+      "section_id": "V2",
+      "original_text": "Main kisse kya kahunga",
+      "devanagari_text": "मैं किस्से क्या कहूँगा",
+      "vocal_onset_seconds": 41.2,
+      "vocal_end_seconds": 43.8,
+      "display_start_seconds": 41.1,
+      "display_end_seconds": 43.92,
+      "start_seconds": 41.1,
+      "end_seconds": 43.92,
+      "start_frame": 1233,
+      "end_frame": 1318,
+      "vocal_onset_frame": 1236,
+      "word_timings": [
+        {
+          "word": "Main",
+          "start_seconds": 41.2,
+          "end_seconds": 41.571
+        },
+        {
+          "word": "kisse",
+          "start_seconds": 41.571,
+          "end_seconds": 42.314
+        },
+        {
+          "word": "kya",
+          "start_seconds": 42.314,
+          "end_seconds": 42.686
+        },
+        {
+          "word": "kahunga",
+          "start_seconds": 42.686,
+          "end_seconds": 43.8
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V2_L3",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 41.215,
+      "onset_to_beat_ms": 15,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 41.2,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V2_L4",
+      "section": "Verse 2",
+      "section_id": "V2",
+      "original_text": "Tum aakar dekho…",
+      "devanagari_text": "तुम आकर देखो…",
+      "vocal_onset_seconds": 44.04,
+      "vocal_end_seconds": 46.4,
+      "display_start_seconds": 43.94,
+      "display_end_seconds": 46.62,
+      "start_seconds": 43.94,
+      "end_seconds": 46.62,
+      "start_frame": 1318,
+      "end_frame": 1399,
+      "vocal_onset_frame": 1321,
+      "word_timings": [
+        {
+          "word": "Tum",
+          "start_seconds": 44.04,
+          "end_seconds": 44.433
+        },
+        {
+          "word": "aakar",
+          "start_seconds": 44.433,
+          "end_seconds": 45.22
+        },
+        {
+          "word": "dekho…",
+          "start_seconds": 45.22,
+          "end_seconds": 46.4
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V2_L4",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 44.002,
+      "onset_to_beat_ms": 38,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 44.04,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC1_L1",
+      "section": "Pre-Chorus 1",
+      "section_id": "PC1",
+      "original_text": "Main dil ki baat apne",
+      "devanagari_text": "मैं दिल की बात अपने",
+      "vocal_onset_seconds": 46.74,
+      "vocal_end_seconds": 49.5,
+      "display_start_seconds": 46.64,
+      "display_end_seconds": 49.675,
+      "start_seconds": 46.64,
+      "end_seconds": 49.675,
+      "start_frame": 1399,
+      "end_frame": 1490,
+      "vocal_onset_frame": 1402,
+      "word_timings": [
+        {
+          "word": "Main",
+          "start_seconds": 46.74,
+          "end_seconds": 47.2
+        },
+        {
+          "word": "dil",
+          "start_seconds": 47.2,
+          "end_seconds": 47.66
+        },
+        {
+          "word": "ki",
+          "start_seconds": 47.66,
+          "end_seconds": 48.12
+        },
+        {
+          "word": "baat",
+          "start_seconds": 48.12,
+          "end_seconds": 48.58
+        },
+        {
+          "word": "apne",
+          "start_seconds": 48.58,
+          "end_seconds": 49.5
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC1_L1",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 46.765,
+      "onset_to_beat_ms": 25,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 46.74,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC1_L2",
+      "section": "Pre-Chorus 1",
+      "section_id": "PC1",
+      "original_text": "Tere dil se hi kahunga",
+      "devanagari_text": "तेरे दिल से ही कहूँगा",
+      "vocal_onset_seconds": 49.795,
+      "vocal_end_seconds": 51.8,
+      "display_start_seconds": 49.695,
+      "display_end_seconds": 51.881,
+      "start_seconds": 49.695,
+      "end_seconds": 51.881,
+      "start_frame": 1491,
+      "end_frame": 1556,
+      "vocal_onset_frame": 1494,
+      "word_timings": [
+        {
+          "word": "Tere",
+          "start_seconds": 49.795,
+          "end_seconds": 50.296
+        },
+        {
+          "word": "dil",
+          "start_seconds": 50.296,
+          "end_seconds": 50.547
+        },
+        {
+          "word": "se",
+          "start_seconds": 50.547,
+          "end_seconds": 50.797
+        },
+        {
+          "word": "hi",
+          "start_seconds": 50.797,
+          "end_seconds": 51.048
+        },
+        {
+          "word": "kahunga",
+          "start_seconds": 51.048,
+          "end_seconds": 51.8
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC1_L2",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 49.923,
+      "onset_to_beat_ms": 128,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 49.84,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC1_L3",
+      "section": "Pre-Chorus 1",
+      "section_id": "PC1",
+      "original_text": "Main kaayar chaahe jitna (Aa)",
+      "devanagari_text": "मैं कायर चाहे जितना (आ)",
+      "vocal_onset_seconds": 52.001,
+      "vocal_end_seconds": 54.6,
+      "display_start_seconds": 51.901,
+      "display_end_seconds": 54.667,
+      "start_seconds": 51.901,
+      "end_seconds": 54.667,
+      "start_frame": 1557,
+      "end_frame": 1640,
+      "vocal_onset_frame": 1560,
+      "word_timings": [
+        {
+          "word": "Main",
+          "start_seconds": 52.001,
+          "end_seconds": 52.29
+        },
+        {
+          "word": "kaayar",
+          "start_seconds": 52.29,
+          "end_seconds": 52.867
+        },
+        {
+          "word": "chaahe",
+          "start_seconds": 52.867,
+          "end_seconds": 53.445
+        },
+        {
+          "word": "jitna",
+          "start_seconds": 53.445,
+          "end_seconds": 54.022
+        },
+        {
+          "word": "(Aa)",
+          "start_seconds": 54.022,
+          "end_seconds": 54.6
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC1_L3",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 52.013,
+      "onset_to_beat_ms": 12,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 52.02,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC1_L4",
+      "section": "Pre-Chorus 1",
+      "section_id": "PC1",
+      "original_text": "Par milkar hi kahunga",
+      "devanagari_text": "पर मिलकर ही कहूँगा",
+      "vocal_onset_seconds": 54.787,
+      "vocal_end_seconds": 57.0,
+      "display_start_seconds": 54.687,
+      "display_end_seconds": 56.931,
+      "start_seconds": 54.687,
+      "end_seconds": 56.931,
+      "start_frame": 1641,
+      "end_frame": 1708,
+      "vocal_onset_frame": 1644,
+      "word_timings": [
+        {
+          "word": "Par",
+          "start_seconds": 54.787,
+          "end_seconds": 55.103
+        },
+        {
+          "word": "milkar",
+          "start_seconds": 55.103,
+          "end_seconds": 55.735
+        },
+        {
+          "word": "hi",
+          "start_seconds": 55.735,
+          "end_seconds": 56.052
+        },
+        {
+          "word": "kahunga",
+          "start_seconds": 56.052,
+          "end_seconds": 57.0
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC1_L4",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 54.799,
+      "onset_to_beat_ms": 12,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 54.75,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC1_L5",
+      "section": "Pre-Chorus 1",
+      "section_id": "PC1",
+      "original_text": "Main milkar hi kahunga",
+      "devanagari_text": "मैं मिलकर ही कहूँगा",
+      "vocal_onset_seconds": 57.051,
+      "vocal_end_seconds": 59.7,
+      "display_start_seconds": 56.951,
+      "display_end_seconds": 59.776,
+      "start_seconds": 56.951,
+      "end_seconds": 59.776,
+      "start_frame": 1709,
+      "end_frame": 1793,
+      "vocal_onset_frame": 1712,
+      "word_timings": [
+        {
+          "word": "Main",
+          "start_seconds": 57.051,
+          "end_seconds": 57.429
+        },
+        {
+          "word": "milkar",
+          "start_seconds": 57.429,
+          "end_seconds": 58.186
+        },
+        {
+          "word": "hi",
+          "start_seconds": 58.186,
+          "end_seconds": 58.565
+        },
+        {
+          "word": "kahunga",
+          "start_seconds": 58.565,
+          "end_seconds": 59.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC1_L5",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 56.889,
+      "onset_to_beat_ms": 162,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 57.2,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC1_L6",
+      "section": "Pre-Chorus 1",
+      "section_id": "PC1",
+      "original_text": "Tum sun lena (Aa…)",
+      "devanagari_text": "तुम सुन लेना (आ…)",
+      "vocal_onset_seconds": 59.896,
+      "vocal_end_seconds": 63.2,
+      "display_start_seconds": 59.796,
+      "display_end_seconds": 63.65,
+      "start_seconds": 59.796,
+      "end_seconds": 63.65,
+      "start_frame": 1794,
+      "end_frame": 1910,
+      "vocal_onset_frame": 1797,
+      "word_timings": [
+        {
+          "word": "Tum",
+          "start_seconds": 59.896,
+          "end_seconds": 60.447
+        },
+        {
+          "word": "sun",
+          "start_seconds": 60.447,
+          "end_seconds": 60.997
+        },
+        {
+          "word": "lena",
+          "start_seconds": 60.997,
+          "end_seconds": 62.099
+        },
+        {
+          "word": "(Aa…)",
+          "start_seconds": 62.099,
+          "end_seconds": 63.2
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC1_L6",
+      "animation": "scale-in",
+      "nearest_beat_seconds": 60.047,
+      "onset_to_beat_ms": 151,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 59.9,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "C1_L1",
+      "section": "Chorus 1",
+      "section_id": "C1",
+      "original_text": "Kyun aise main takta hoon?",
+      "devanagari_text": "क्यूँ ऐसे मैं तकता हूँ?",
+      "vocal_onset_seconds": 65.7,
+      "vocal_end_seconds": 68.9,
+      "display_start_seconds": 65.6,
+      "display_end_seconds": 69.145,
+      "start_seconds": 65.6,
+      "end_seconds": 69.145,
+      "start_frame": 1968,
+      "end_frame": 2074,
+      "vocal_onset_frame": 1971,
+      "word_timings": [
+        {
+          "word": "Kyun",
+          "start_seconds": 65.7,
+          "end_seconds": 66.157
+        },
+        {
+          "word": "aise",
+          "start_seconds": 66.157,
+          "end_seconds": 67.071
+        },
+        {
+          "word": "main",
+          "start_seconds": 67.071,
+          "end_seconds": 67.529
+        },
+        {
+          "word": "takta",
+          "start_seconds": 67.529,
+          "end_seconds": 68.443
+        },
+        {
+          "word": "hoon?",
+          "start_seconds": 68.443,
+          "end_seconds": 68.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_C1_L1",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 65.62,
+      "onset_to_beat_ms": 80,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 65.7,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "C1_L2",
+      "section": "Chorus 1",
+      "section_id": "C1",
+      "original_text": "Teri baatein kyun karta hoon",
+      "devanagari_text": "तेरी बातें क्यूँ करता हूँ",
+      "vocal_onset_seconds": 69.265,
+      "vocal_end_seconds": 71.9,
+      "display_start_seconds": 69.165,
+      "display_end_seconds": 72.02,
+      "start_seconds": 69.165,
+      "end_seconds": 72.02,
+      "start_frame": 2075,
+      "end_frame": 2161,
+      "vocal_onset_frame": 2078,
+      "word_timings": [
+        {
+          "word": "Teri",
+          "start_seconds": 69.265,
+          "end_seconds": 69.924
+        },
+        {
+          "word": "baatein",
+          "start_seconds": 69.924,
+          "end_seconds": 70.582
+        },
+        {
+          "word": "kyun",
+          "start_seconds": 70.582,
+          "end_seconds": 70.912
+        },
+        {
+          "word": "karta",
+          "start_seconds": 70.912,
+          "end_seconds": 71.571
+        },
+        {
+          "word": "hoon",
+          "start_seconds": 71.571,
+          "end_seconds": 71.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_C1_L2",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 69.103,
+      "onset_to_beat_ms": 162,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 69.14,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "C1_L3",
+      "section": "Chorus 1",
+      "section_id": "C1",
+      "original_text": "Main tum par kyun marta hoon",
+      "devanagari_text": "मैं तुम पर क्यूँ मरता हूँ",
+      "vocal_onset_seconds": 72.14,
+      "vocal_end_seconds": 74.7,
+      "display_start_seconds": 72.04,
+      "display_end_seconds": 74.78,
+      "start_seconds": 72.04,
+      "end_seconds": 74.78,
+      "start_frame": 2161,
+      "end_frame": 2243,
+      "vocal_onset_frame": 2164,
+      "word_timings": [
+        {
+          "word": "Main",
+          "start_seconds": 72.14,
+          "end_seconds": 72.506
+        },
+        {
+          "word": "tum",
+          "start_seconds": 72.506,
+          "end_seconds": 72.871
+        },
+        {
+          "word": "par",
+          "start_seconds": 72.871,
+          "end_seconds": 73.237
+        },
+        {
+          "word": "kyun",
+          "start_seconds": 73.237,
+          "end_seconds": 73.603
+        },
+        {
+          "word": "marta",
+          "start_seconds": 73.603,
+          "end_seconds": 74.334
+        },
+        {
+          "word": "hoon",
+          "start_seconds": 74.334,
+          "end_seconds": 74.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_C1_L3",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 72.237,
+      "onset_to_beat_ms": 97,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 72.14,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "C1_L4",
+      "section": "Chorus 1",
+      "section_id": "C1",
+      "original_text": "Tum khud hi dekho…",
+      "devanagari_text": "तुम खुद ही देखो…",
+      "vocal_onset_seconds": 74.9,
+      "vocal_end_seconds": 77.3,
+      "display_start_seconds": 74.8,
+      "display_end_seconds": 77.75,
+      "start_seconds": 74.8,
+      "end_seconds": 77.75,
+      "start_frame": 2244,
+      "end_frame": 2332,
+      "vocal_onset_frame": 2247,
+      "word_timings": [
+        {
+          "word": "Tum",
+          "start_seconds": 74.9,
+          "end_seconds": 75.3
+        },
+        {
+          "word": "khud",
+          "start_seconds": 75.3,
+          "end_seconds": 75.7
+        },
+        {
+          "word": "hi",
+          "start_seconds": 75.7,
+          "end_seconds": 76.1
+        },
+        {
+          "word": "dekho…",
+          "start_seconds": 76.1,
+          "end_seconds": 77.3
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_C1_L4",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 75.0,
+      "onset_to_beat_ms": 100,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 74.9,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "C1_L5",
+      "section": "Chorus 1",
+      "section_id": "C1",
+      "original_text": "Dekho na (Aa…)",
+      "devanagari_text": "देखो ना (आ…)",
+      "vocal_onset_seconds": 78.4,
+      "vocal_end_seconds": 80.6,
+      "display_start_seconds": 78.3,
+      "display_end_seconds": 81.05,
+      "start_seconds": 78.3,
+      "end_seconds": 81.05,
+      "start_frame": 2349,
+      "end_frame": 2432,
+      "vocal_onset_frame": 2352,
+      "word_timings": [
+        {
+          "word": "Dekho",
+          "start_seconds": 78.4,
+          "end_seconds": 79.28
+        },
+        {
+          "word": "na",
+          "start_seconds": 79.28,
+          "end_seconds": 79.72
+        },
+        {
+          "word": "(Aa…)",
+          "start_seconds": 79.72,
+          "end_seconds": 80.6
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_C1_L5",
+      "animation": "scale-in",
+      "nearest_beat_seconds": 78.53,
+      "onset_to_beat_ms": 130,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 78.4,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PO_L1",
+      "section": "Post-Chorus",
+      "section_id": "PO",
+      "original_text": "Sa sa sa re ga sa…",
+      "devanagari_text": "सा सा सा रे ग सा…",
+      "vocal_onset_seconds": 81.827,
+      "vocal_end_seconds": 84.1,
+      "display_start_seconds": 81.727,
+      "display_end_seconds": 84.47,
+      "start_seconds": 81.727,
+      "end_seconds": 84.47,
+      "start_frame": 2452,
+      "end_frame": 2534,
+      "vocal_onset_frame": 2455,
+      "word_timings": [
+        {
+          "word": "Sa",
+          "start_seconds": 81.827,
+          "end_seconds": 82.152
+        },
+        {
+          "word": "sa",
+          "start_seconds": 82.152,
+          "end_seconds": 82.476
+        },
+        {
+          "word": "sa",
+          "start_seconds": 82.476,
+          "end_seconds": 82.801
+        },
+        {
+          "word": "re",
+          "start_seconds": 82.801,
+          "end_seconds": 83.126
+        },
+        {
+          "word": "ga",
+          "start_seconds": 83.126,
+          "end_seconds": 83.451
+        },
+        {
+          "word": "sa…",
+          "start_seconds": 83.451,
+          "end_seconds": 84.1
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PO_L1",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 81.665,
+      "onset_to_beat_ms": 162,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 81.8,
+      "sync_confidence": "inferred (pitch/structure, est. +/-0.3s)",
+      "alignment_method": "pitch_structure_inferred"
+    },
+    {
+      "id": "PO_L2",
+      "section": "Post-Chorus",
+      "section_id": "PO",
+      "original_text": "Sa sa sa re ga sa…",
+      "devanagari_text": "सा सा सा रे ग सा…",
+      "vocal_onset_seconds": 84.59,
+      "vocal_end_seconds": 86.7,
+      "display_start_seconds": 84.49,
+      "display_end_seconds": 86.88,
+      "start_seconds": 84.49,
+      "end_seconds": 86.88,
+      "start_frame": 2535,
+      "end_frame": 2606,
+      "vocal_onset_frame": 2538,
+      "word_timings": [
+        {
+          "word": "Sa",
+          "start_seconds": 84.59,
+          "end_seconds": 84.891
+        },
+        {
+          "word": "sa",
+          "start_seconds": 84.891,
+          "end_seconds": 85.193
+        },
+        {
+          "word": "sa",
+          "start_seconds": 85.193,
+          "end_seconds": 85.494
+        },
+        {
+          "word": "re",
+          "start_seconds": 85.494,
+          "end_seconds": 85.796
+        },
+        {
+          "word": "ga",
+          "start_seconds": 85.796,
+          "end_seconds": 86.097
+        },
+        {
+          "word": "sa…",
+          "start_seconds": 86.097,
+          "end_seconds": 86.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PO_L2",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 84.451,
+      "onset_to_beat_ms": 139,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 84.4,
+      "sync_confidence": "inferred (pitch/structure, est. +/-0.3s)",
+      "alignment_method": "pitch_structure_inferred"
+    },
+    {
+      "id": "PO_L3",
+      "section": "Post-Chorus",
+      "section_id": "PO",
+      "original_text": "Ma ga re ga sa…",
+      "devanagari_text": "म ग रे ग सा…",
+      "vocal_onset_seconds": 87.0,
+      "vocal_end_seconds": 89.0,
+      "display_start_seconds": 86.9,
+      "display_end_seconds": 89.45,
+      "start_seconds": 86.9,
+      "end_seconds": 89.45,
+      "start_frame": 2607,
+      "end_frame": 2684,
+      "vocal_onset_frame": 2610,
+      "word_timings": [
+        {
+          "word": "Ma",
+          "start_seconds": 87.0,
+          "end_seconds": 87.333
+        },
+        {
+          "word": "ga",
+          "start_seconds": 87.333,
+          "end_seconds": 87.667
+        },
+        {
+          "word": "re",
+          "start_seconds": 87.667,
+          "end_seconds": 88.0
+        },
+        {
+          "word": "ga",
+          "start_seconds": 88.0,
+          "end_seconds": 88.333
+        },
+        {
+          "word": "sa…",
+          "start_seconds": 88.333,
+          "end_seconds": 89.0
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PO_L3",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 86.889,
+      "onset_to_beat_ms": 111,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 87.0,
+      "sync_confidence": "inferred (pitch/structure, est. +/-0.3s)",
+      "alignment_method": "pitch_structure_inferred"
+    },
+    {
+      "id": "V3_L1",
+      "section": "Verse 3",
+      "section_id": "V3",
+      "original_text": "Kya main kahoon… jo tu sun le…",
+      "devanagari_text": "क्या मैं कहूँ… जो तू सुन ले…",
+      "vocal_onset_seconds": 102.9,
+      "vocal_end_seconds": 112.3,
+      "display_start_seconds": 102.8,
+      "display_end_seconds": 112.58,
+      "start_seconds": 102.8,
+      "end_seconds": 112.58,
+      "start_frame": 3084,
+      "end_frame": 3377,
+      "vocal_onset_frame": 3087,
+      "word_timings": [
+        {
+          "word": "Kya",
+          "start_seconds": 102.9,
+          "end_seconds": 103.944
+        },
+        {
+          "word": "main",
+          "start_seconds": 103.944,
+          "end_seconds": 104.989
+        },
+        {
+          "word": "kahoon…",
+          "start_seconds": 104.989,
+          "end_seconds": 107.078
+        },
+        {
+          "word": "jo",
+          "start_seconds": 107.078,
+          "end_seconds": 108.122
+        },
+        {
+          "word": "tu",
+          "start_seconds": 108.122,
+          "end_seconds": 109.167
+        },
+        {
+          "word": "sun",
+          "start_seconds": 109.167,
+          "end_seconds": 110.211
+        },
+        {
+          "word": "le…",
+          "start_seconds": 110.211,
+          "end_seconds": 112.3
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V3_L1",
+      "animation": "mask-reveal",
+      "nearest_beat_seconds": 102.934,
+      "onset_to_beat_ms": 34,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 102.9,
+      "sync_confidence": "inferred (pitch/structure, est. +/-0.3s)",
+      "alignment_method": "pitch_structure_inferred"
+    },
+    {
+      "id": "V3_L2",
+      "section": "Verse 3",
+      "section_id": "V3",
+      "original_text": "Laakhon chehron mein… tu mujhe chun le (Ae…)",
+      "devanagari_text": "लाखों चेहरों में… तू मुझे चुन ले (ए…)",
+      "vocal_onset_seconds": 112.7,
+      "vocal_end_seconds": 123.2,
+      "display_start_seconds": 112.6,
+      "display_end_seconds": 123.65,
+      "start_seconds": 112.6,
+      "end_seconds": 123.65,
+      "start_frame": 3378,
+      "end_frame": 3710,
+      "vocal_onset_frame": 3381,
+      "word_timings": [
+        {
+          "word": "Laakhon",
+          "start_seconds": 112.7,
+          "end_seconds": 114.45
+        },
+        {
+          "word": "chehron",
+          "start_seconds": 114.45,
+          "end_seconds": 116.2
+        },
+        {
+          "word": "mein…",
+          "start_seconds": 116.2,
+          "end_seconds": 117.075
+        },
+        {
+          "word": "tu",
+          "start_seconds": 117.075,
+          "end_seconds": 117.95
+        },
+        {
+          "word": "mujhe",
+          "start_seconds": 117.95,
+          "end_seconds": 119.7
+        },
+        {
+          "word": "chun",
+          "start_seconds": 119.7,
+          "end_seconds": 120.575
+        },
+        {
+          "word": "le",
+          "start_seconds": 120.575,
+          "end_seconds": 121.45
+        },
+        {
+          "word": "(Ae…)",
+          "start_seconds": 121.45,
+          "end_seconds": 123.2
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V3_L2",
+      "animation": "mask-reveal",
+      "nearest_beat_seconds": 112.71,
+      "onset_to_beat_ms": 10,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 112.7,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V3_L3",
+      "section": "Verse 3",
+      "section_id": "V3",
+      "original_text": "Do kadam hi sahi… mere sang toh chal",
+      "devanagari_text": "दो कदम ही सही… मेरे संग तो चल",
+      "vocal_onset_seconds": 124.575,
+      "vocal_end_seconds": 134.7,
+      "display_start_seconds": 124.475,
+      "display_end_seconds": 134.88,
+      "start_seconds": 124.475,
+      "end_seconds": 134.88,
+      "start_frame": 3734,
+      "end_frame": 4046,
+      "vocal_onset_frame": 3737,
+      "word_timings": [
+        {
+          "word": "Do",
+          "start_seconds": 124.575,
+          "end_seconds": 125.419
+        },
+        {
+          "word": "kadam",
+          "start_seconds": 125.419,
+          "end_seconds": 127.106
+        },
+        {
+          "word": "hi",
+          "start_seconds": 127.106,
+          "end_seconds": 127.95
+        },
+        {
+          "word": "sahi…",
+          "start_seconds": 127.95,
+          "end_seconds": 129.637
+        },
+        {
+          "word": "mere",
+          "start_seconds": 129.637,
+          "end_seconds": 131.325
+        },
+        {
+          "word": "sang",
+          "start_seconds": 131.325,
+          "end_seconds": 132.169
+        },
+        {
+          "word": "toh",
+          "start_seconds": 132.169,
+          "end_seconds": 133.012
+        },
+        {
+          "word": "chal",
+          "start_seconds": 133.012,
+          "end_seconds": 134.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V3_L3",
+      "animation": "mask-reveal",
+      "nearest_beat_seconds": 124.575,
+      "onset_to_beat_ms": 0,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 124.5,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V3_L4",
+      "section": "Verse 3",
+      "section_id": "V3",
+      "original_text": "Yoon jee loon main zindagi… apne inn do pal (Hmm…)",
+      "devanagari_text": "यूँ जी लूँ मैं ज़िंदगी… अपने इन दो पल (हम्म…)",
+      "vocal_onset_seconds": 135.0,
+      "vocal_end_seconds": 147.2,
+      "display_start_seconds": 134.9,
+      "display_end_seconds": 147.65,
+      "start_seconds": 134.9,
+      "end_seconds": 147.65,
+      "start_frame": 4047,
+      "end_frame": 4429,
+      "vocal_onset_frame": 4050,
+      "word_timings": [
+        {
+          "word": "Yoon",
+          "start_seconds": 135.0,
+          "end_seconds": 135.871
+        },
+        {
+          "word": "jee",
+          "start_seconds": 135.871,
+          "end_seconds": 136.743
+        },
+        {
+          "word": "loon",
+          "start_seconds": 136.743,
+          "end_seconds": 137.614
+        },
+        {
+          "word": "main",
+          "start_seconds": 137.614,
+          "end_seconds": 138.486
+        },
+        {
+          "word": "zindagi…",
+          "start_seconds": 138.486,
+          "end_seconds": 141.1
+        },
+        {
+          "word": "apne",
+          "start_seconds": 141.1,
+          "end_seconds": 142.843
+        },
+        {
+          "word": "inn",
+          "start_seconds": 142.843,
+          "end_seconds": 143.714
+        },
+        {
+          "word": "do",
+          "start_seconds": 143.714,
+          "end_seconds": 144.586
+        },
+        {
+          "word": "pal",
+          "start_seconds": 144.586,
+          "end_seconds": 145.457
+        },
+        {
+          "word": "(Hmm…)",
+          "start_seconds": 145.457,
+          "end_seconds": 147.2
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V3_L4",
+      "animation": "mask-reveal",
+      "nearest_beat_seconds": 135.047,
+      "onset_to_beat_ms": 47,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 135.0,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V4_L1",
+      "section": "Verse 4",
+      "section_id": "V4",
+      "original_text": "Haan, kyun karta hai bahaane",
+      "devanagari_text": "हाँ, क्यूँ करता है बहाने",
+      "vocal_onset_seconds": 151.7,
+      "vocal_end_seconds": 154.7,
+      "display_start_seconds": 151.6,
+      "display_end_seconds": 155.02,
+      "start_seconds": 151.6,
+      "end_seconds": 155.02,
+      "start_frame": 4548,
+      "end_frame": 4651,
+      "vocal_onset_frame": 4551,
+      "word_timings": [
+        {
+          "word": "Haan,",
+          "start_seconds": 151.7,
+          "end_seconds": 152.075
+        },
+        {
+          "word": "kyun",
+          "start_seconds": 152.075,
+          "end_seconds": 152.45
+        },
+        {
+          "word": "karta",
+          "start_seconds": 152.45,
+          "end_seconds": 153.2
+        },
+        {
+          "word": "hai",
+          "start_seconds": 153.2,
+          "end_seconds": 153.575
+        },
+        {
+          "word": "bahaane",
+          "start_seconds": 153.575,
+          "end_seconds": 154.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V4_L1",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 151.696,
+      "onset_to_beat_ms": 4,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 151.7,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V4_L2",
+      "section": "Verse 4",
+      "section_id": "V4",
+      "original_text": "Tu kitna bekhabar hai?",
+      "devanagari_text": "तू कितना बेखबर है?",
+      "vocal_onset_seconds": 155.14,
+      "vocal_end_seconds": 157.9,
+      "display_start_seconds": 155.04,
+      "display_end_seconds": 158.02,
+      "start_seconds": 155.04,
+      "end_seconds": 158.02,
+      "start_frame": 4651,
+      "end_frame": 4741,
+      "vocal_onset_frame": 4654,
+      "word_timings": [
+        {
+          "word": "Tu",
+          "start_seconds": 155.14,
+          "end_seconds": 155.534
+        },
+        {
+          "word": "kitna",
+          "start_seconds": 155.534,
+          "end_seconds": 156.323
+        },
+        {
+          "word": "bekhabar",
+          "start_seconds": 156.323,
+          "end_seconds": 157.506
+        },
+        {
+          "word": "hai?",
+          "start_seconds": 157.506,
+          "end_seconds": 157.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V4_L2",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 155.249,
+      "onset_to_beat_ms": 109,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 155.14,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V4_L3",
+      "section": "Verse 4",
+      "section_id": "V4",
+      "original_text": "Kaise tu yeh naa jaane (Ae)",
+      "devanagari_text": "कैसे तू ये ना जाने (ए)",
+      "vocal_onset_seconds": 158.14,
+      "vocal_end_seconds": 160.9,
+      "display_start_seconds": 158.04,
+      "display_end_seconds": 160.92,
+      "start_seconds": 158.04,
+      "end_seconds": 160.92,
+      "start_frame": 4741,
+      "end_frame": 4828,
+      "vocal_onset_frame": 4744,
+      "word_timings": [
+        {
+          "word": "Kaise",
+          "start_seconds": 158.14,
+          "end_seconds": 158.753
+        },
+        {
+          "word": "tu",
+          "start_seconds": 158.753,
+          "end_seconds": 159.06
+        },
+        {
+          "word": "yeh",
+          "start_seconds": 159.06,
+          "end_seconds": 159.367
+        },
+        {
+          "word": "naa",
+          "start_seconds": 159.367,
+          "end_seconds": 159.673
+        },
+        {
+          "word": "jaane",
+          "start_seconds": 159.673,
+          "end_seconds": 160.287
+        },
+        {
+          "word": "(Ae)",
+          "start_seconds": 160.287,
+          "end_seconds": 160.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V4_L3",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 158.058,
+      "onset_to_beat_ms": 82,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 158.14,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V4_L4",
+      "section": "Verse 4",
+      "section_id": "V4",
+      "original_text": "Dil kitna besabar hai",
+      "devanagari_text": "दिल कितना बेसब्र है",
+      "vocal_onset_seconds": 161.04,
+      "vocal_end_seconds": 163.5,
+      "display_start_seconds": 160.94,
+      "display_end_seconds": 163.64,
+      "start_seconds": 160.94,
+      "end_seconds": 163.64,
+      "start_frame": 4828,
+      "end_frame": 4909,
+      "vocal_onset_frame": 4831,
+      "word_timings": [
+        {
+          "word": "Dil",
+          "start_seconds": 161.04,
+          "end_seconds": 161.391
+        },
+        {
+          "word": "kitna",
+          "start_seconds": 161.391,
+          "end_seconds": 162.094
+        },
+        {
+          "word": "besabar",
+          "start_seconds": 162.094,
+          "end_seconds": 163.149
+        },
+        {
+          "word": "hai",
+          "start_seconds": 163.149,
+          "end_seconds": 163.5
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V4_L4",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 161.193,
+      "onset_to_beat_ms": 153,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 161.04,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V4_L5",
+      "section": "Verse 4",
+      "section_id": "V4",
+      "original_text": "Meri aankhon ke ishaare",
+      "devanagari_text": "मेरी आँखों के इशारे",
+      "vocal_onset_seconds": 163.76,
+      "vocal_end_seconds": 166.2,
+      "display_start_seconds": 163.66,
+      "display_end_seconds": 166.297,
+      "start_seconds": 163.66,
+      "end_seconds": 166.297,
+      "start_frame": 4910,
+      "end_frame": 4989,
+      "vocal_onset_frame": 4913,
+      "word_timings": [
+        {
+          "word": "Meri",
+          "start_seconds": 163.76,
+          "end_seconds": 164.37
+        },
+        {
+          "word": "aankhon",
+          "start_seconds": 164.37,
+          "end_seconds": 164.98
+        },
+        {
+          "word": "ke",
+          "start_seconds": 164.98,
+          "end_seconds": 165.285
+        },
+        {
+          "word": "ishaare",
+          "start_seconds": 165.285,
+          "end_seconds": 166.2
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V4_L5",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 163.631,
+      "onset_to_beat_ms": 129,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 163.76,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V4_L6",
+      "section": "Verse 4",
+      "section_id": "V4",
+      "original_text": "Tum samjho naa (Aa…)",
+      "devanagari_text": "तुम समझो ना (आ…)",
+      "vocal_onset_seconds": 166.417,
+      "vocal_end_seconds": 169.3,
+      "display_start_seconds": 166.317,
+      "display_end_seconds": 169.75,
+      "start_seconds": 166.317,
+      "end_seconds": 169.75,
+      "start_frame": 4990,
+      "end_frame": 5092,
+      "vocal_onset_frame": 4993,
+      "word_timings": [
+        {
+          "word": "Tum",
+          "start_seconds": 166.417,
+          "end_seconds": 166.898
+        },
+        {
+          "word": "samjho",
+          "start_seconds": 166.898,
+          "end_seconds": 167.859
+        },
+        {
+          "word": "naa",
+          "start_seconds": 167.859,
+          "end_seconds": 168.339
+        },
+        {
+          "word": "(Aa…)",
+          "start_seconds": 168.339,
+          "end_seconds": 169.3
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V4_L6",
+      "animation": "scale-in",
+      "nearest_beat_seconds": 166.394,
+      "onset_to_beat_ms": 23,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 166.4,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V5_L1",
+      "section": "Verse 5",
+      "section_id": "V5",
+      "original_text": "Dil tere bin dhadke naa",
+      "devanagari_text": "दिल तेरे बिन धड़के ना",
+      "vocal_onset_seconds": 171.7,
+      "vocal_end_seconds": 174.9,
+      "display_start_seconds": 171.6,
+      "display_end_seconds": 175.06,
+      "start_seconds": 171.6,
+      "end_seconds": 175.06,
+      "start_frame": 5148,
+      "end_frame": 5252,
+      "vocal_onset_frame": 5151,
+      "word_timings": [
+        {
+          "word": "Dil",
+          "start_seconds": 171.7,
+          "end_seconds": 172.157
+        },
+        {
+          "word": "tere",
+          "start_seconds": 172.157,
+          "end_seconds": 173.071
+        },
+        {
+          "word": "bin",
+          "start_seconds": 173.071,
+          "end_seconds": 173.529
+        },
+        {
+          "word": "dhadke",
+          "start_seconds": 173.529,
+          "end_seconds": 174.443
+        },
+        {
+          "word": "naa",
+          "start_seconds": 174.443,
+          "end_seconds": 174.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V5_L1",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 171.688,
+      "onset_to_beat_ms": 12,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 171.7,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V5_L2",
+      "section": "Verse 5",
+      "section_id": "V5",
+      "original_text": "Meri palkein bhi jhapke naa",
+      "devanagari_text": "मेरी पलकें भी झपके ना",
+      "vocal_onset_seconds": 175.18,
+      "vocal_end_seconds": 177.687,
+      "display_start_seconds": 175.08,
+      "display_end_seconds": 177.617,
+      "start_seconds": 175.08,
+      "end_seconds": 177.617,
+      "start_frame": 5252,
+      "end_frame": 5329,
+      "vocal_onset_frame": 5255,
+      "word_timings": [
+        {
+          "word": "Meri",
+          "start_seconds": 175.18,
+          "end_seconds": 175.807
+        },
+        {
+          "word": "palkein",
+          "start_seconds": 175.807,
+          "end_seconds": 176.434
+        },
+        {
+          "word": "bhi",
+          "start_seconds": 176.434,
+          "end_seconds": 176.747
+        },
+        {
+          "word": "jhapke",
+          "start_seconds": 176.747,
+          "end_seconds": 177.374
+        },
+        {
+          "word": "naa",
+          "start_seconds": 177.374,
+          "end_seconds": 177.687
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V5_L2",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 175.171,
+      "onset_to_beat_ms": 9,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 175.18,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V5_L3",
+      "section": "Verse 5",
+      "section_id": "V5",
+      "original_text": "Har pal tujhko main dekhoon",
+      "devanagari_text": "हर पल तुझको मैं देखूँ",
+      "vocal_onset_seconds": 177.737,
+      "vocal_end_seconds": 180.4,
+      "display_start_seconds": 177.637,
+      "display_end_seconds": 180.404,
+      "start_seconds": 177.637,
+      "end_seconds": 180.404,
+      "start_frame": 5329,
+      "end_frame": 5412,
+      "vocal_onset_frame": 5332,
+      "word_timings": [
+        {
+          "word": "Har",
+          "start_seconds": 177.737,
+          "end_seconds": 178.117
+        },
+        {
+          "word": "pal",
+          "start_seconds": 178.117,
+          "end_seconds": 178.498
+        },
+        {
+          "word": "tujhko",
+          "start_seconds": 178.498,
+          "end_seconds": 179.259
+        },
+        {
+          "word": "main",
+          "start_seconds": 179.259,
+          "end_seconds": 179.639
+        },
+        {
+          "word": "dekhoon",
+          "start_seconds": 179.639,
+          "end_seconds": 180.4
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V5_L3",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 177.609,
+      "onset_to_beat_ms": 128,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 177.88,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V5_L4",
+      "section": "Verse 5",
+      "section_id": "V5",
+      "original_text": "Tu kyun naa jaane (Ae)",
+      "devanagari_text": "तू क्यूँ ना जाने (ए)",
+      "vocal_onset_seconds": 180.524,
+      "vocal_end_seconds": 182.7,
+      "display_start_seconds": 180.424,
+      "display_end_seconds": 182.76,
+      "start_seconds": 180.424,
+      "end_seconds": 182.76,
+      "start_frame": 5413,
+      "end_frame": 5483,
+      "vocal_onset_frame": 5416,
+      "word_timings": [
+        {
+          "word": "Tu",
+          "start_seconds": 180.524,
+          "end_seconds": 180.835
+        },
+        {
+          "word": "kyun",
+          "start_seconds": 180.835,
+          "end_seconds": 181.146
+        },
+        {
+          "word": "naa",
+          "start_seconds": 181.146,
+          "end_seconds": 181.457
+        },
+        {
+          "word": "jaane",
+          "start_seconds": 181.457,
+          "end_seconds": 182.078
+        },
+        {
+          "word": "(Ae)",
+          "start_seconds": 182.078,
+          "end_seconds": 182.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V5_L4",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 180.373,
+      "onset_to_beat_ms": 151,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 180.64,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V5_L5",
+      "section": "Verse 5",
+      "section_id": "V5",
+      "original_text": "Chal aa tujhko bata doon",
+      "devanagari_text": "चल आ तुझको बता दूँ",
+      "vocal_onset_seconds": 182.88,
+      "vocal_end_seconds": 186.0,
+      "display_start_seconds": 182.78,
+      "display_end_seconds": 186.0,
+      "start_seconds": 182.78,
+      "end_seconds": 186.0,
+      "start_frame": 5483,
+      "end_frame": 5580,
+      "vocal_onset_frame": 5486,
+      "word_timings": [
+        {
+          "word": "Chal",
+          "start_seconds": 182.88,
+          "end_seconds": 183.326
+        },
+        {
+          "word": "aa",
+          "start_seconds": 183.326,
+          "end_seconds": 183.771
+        },
+        {
+          "word": "tujhko",
+          "start_seconds": 183.771,
+          "end_seconds": 184.663
+        },
+        {
+          "word": "bata",
+          "start_seconds": 184.663,
+          "end_seconds": 185.554
+        },
+        {
+          "word": "doon",
+          "start_seconds": 185.554,
+          "end_seconds": 186.0
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V5_L5",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 182.834,
+      "onset_to_beat_ms": 46,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 182.88,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V5_L6",
+      "section": "Verse 5",
+      "section_id": "V5",
+      "original_text": "Meri chahat kaa afsaana",
+      "devanagari_text": "मेरी चाहत का अफ़साना",
+      "vocal_onset_seconds": 186.12,
+      "vocal_end_seconds": 188.891,
+      "display_start_seconds": 186.02,
+      "display_end_seconds": 188.821,
+      "start_seconds": 186.02,
+      "end_seconds": 188.821,
+      "start_frame": 5581,
+      "end_frame": 5665,
+      "vocal_onset_frame": 5584,
+      "word_timings": [
+        {
+          "word": "Meri",
+          "start_seconds": 186.12,
+          "end_seconds": 186.813
+        },
+        {
+          "word": "chahat",
+          "start_seconds": 186.813,
+          "end_seconds": 187.505
+        },
+        {
+          "word": "kaa",
+          "start_seconds": 187.505,
+          "end_seconds": 187.852
+        },
+        {
+          "word": "afsaana",
+          "start_seconds": 187.852,
+          "end_seconds": 188.891
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V5_L6",
+      "animation": "mask-reveal",
+      "nearest_beat_seconds": 185.969,
+      "onset_to_beat_ms": 151,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 186.26,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V5_L7",
+      "section": "Verse 5",
+      "section_id": "V5",
+      "original_text": "Jo tujhko maine paaya",
+      "devanagari_text": "जो तुझको मैंने पाया",
+      "vocal_onset_seconds": 188.941,
+      "vocal_end_seconds": 191.6,
+      "display_start_seconds": 188.841,
+      "display_end_seconds": 191.781,
+      "start_seconds": 188.841,
+      "end_seconds": 191.781,
+      "start_frame": 5665,
+      "end_frame": 5753,
+      "vocal_onset_frame": 5668,
+      "word_timings": [
+        {
+          "word": "Jo",
+          "start_seconds": 188.941,
+          "end_seconds": 189.321
+        },
+        {
+          "word": "tujhko",
+          "start_seconds": 189.321,
+          "end_seconds": 190.081
+        },
+        {
+          "word": "maine",
+          "start_seconds": 190.081,
+          "end_seconds": 190.84
+        },
+        {
+          "word": "paaya",
+          "start_seconds": 190.84,
+          "end_seconds": 191.6
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V5_L7",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 189.103,
+      "onset_to_beat_ms": 162,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 189.08,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "V5_L8",
+      "section": "Verse 5",
+      "section_id": "V5",
+      "original_text": "Toh maine jaana (Aa)",
+      "devanagari_text": "तो मैंने जाना (आ)",
+      "vocal_onset_seconds": 191.901,
+      "vocal_end_seconds": 194.0,
+      "display_start_seconds": 191.801,
+      "display_end_seconds": 194.0,
+      "start_seconds": 191.801,
+      "end_seconds": 194.0,
+      "start_frame": 5754,
+      "end_frame": 5820,
+      "vocal_onset_frame": 5757,
+      "word_timings": [
+        {
+          "word": "Toh",
+          "start_seconds": 191.901,
+          "end_seconds": 192.201
+        },
+        {
+          "word": "maine",
+          "start_seconds": 192.201,
+          "end_seconds": 192.801
+        },
+        {
+          "word": "jaana",
+          "start_seconds": 192.801,
+          "end_seconds": 193.4
+        },
+        {
+          "word": "(Aa)",
+          "start_seconds": 193.4,
+          "end_seconds": 194.0
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_V5_L8",
+      "animation": "scale-in",
+      "nearest_beat_seconds": 191.89,
+      "onset_to_beat_ms": 11,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 191.82,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC2_L1",
+      "section": "Pre-Chorus 2",
+      "section_id": "PC2",
+      "original_text": "Mere haathon mein yeh mehendi",
+      "devanagari_text": "मेरे हाथों में ये मेहंदी",
+      "vocal_onset_seconds": 194.12,
+      "vocal_end_seconds": 197.4,
+      "display_start_seconds": 194.02,
+      "display_end_seconds": 197.586,
+      "start_seconds": 194.02,
+      "end_seconds": 197.586,
+      "start_frame": 5821,
+      "end_frame": 5928,
+      "vocal_onset_frame": 5824,
+      "word_timings": [
+        {
+          "word": "Mere",
+          "start_seconds": 194.12,
+          "end_seconds": 194.849
+        },
+        {
+          "word": "haathon",
+          "start_seconds": 194.849,
+          "end_seconds": 195.578
+        },
+        {
+          "word": "mein",
+          "start_seconds": 195.578,
+          "end_seconds": 195.942
+        },
+        {
+          "word": "yeh",
+          "start_seconds": 195.942,
+          "end_seconds": 196.307
+        },
+        {
+          "word": "mehendi",
+          "start_seconds": 196.307,
+          "end_seconds": 197.4
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC2_L1",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 194.003,
+      "onset_to_beat_ms": 117,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 194.12,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC2_L2",
+      "section": "Pre-Chorus 2",
+      "section_id": "PC2",
+      "original_text": "Tere hone se saji hai",
+      "devanagari_text": "तेरे होने से सजी है",
+      "vocal_onset_seconds": 197.706,
+      "vocal_end_seconds": 200.1,
+      "display_start_seconds": 197.606,
+      "display_end_seconds": 200.14,
+      "start_seconds": 197.606,
+      "end_seconds": 200.14,
+      "start_frame": 5928,
+      "end_frame": 6004,
+      "vocal_onset_frame": 5931,
+      "word_timings": [
+        {
+          "word": "Tere",
+          "start_seconds": 197.706,
+          "end_seconds": 198.304
+        },
+        {
+          "word": "hone",
+          "start_seconds": 198.304,
+          "end_seconds": 198.903
+        },
+        {
+          "word": "se",
+          "start_seconds": 198.903,
+          "end_seconds": 199.202
+        },
+        {
+          "word": "saji",
+          "start_seconds": 199.202,
+          "end_seconds": 199.801
+        },
+        {
+          "word": "hai",
+          "start_seconds": 199.801,
+          "end_seconds": 200.1
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC2_L2",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 197.834,
+      "onset_to_beat_ms": 128,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 197.66,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC2_L3",
+      "section": "Pre-Chorus 2",
+      "section_id": "PC2",
+      "original_text": "Meri payal jo yeh khanke (Ae)",
+      "devanagari_text": "मेरी पायल जो ये खनके (ए)",
+      "vocal_onset_seconds": 200.26,
+      "vocal_end_seconds": 202.97,
+      "display_start_seconds": 200.16,
+      "display_end_seconds": 202.9,
+      "start_seconds": 200.16,
+      "end_seconds": 202.9,
+      "start_frame": 6005,
+      "end_frame": 6087,
+      "vocal_onset_frame": 6008,
+      "word_timings": [
+        {
+          "word": "Meri",
+          "start_seconds": 200.26,
+          "end_seconds": 200.802
+        },
+        {
+          "word": "payal",
+          "start_seconds": 200.802,
+          "end_seconds": 201.344
+        },
+        {
+          "word": "jo",
+          "start_seconds": 201.344,
+          "end_seconds": 201.615
+        },
+        {
+          "word": "yeh",
+          "start_seconds": 201.615,
+          "end_seconds": 201.886
+        },
+        {
+          "word": "khanke",
+          "start_seconds": 201.886,
+          "end_seconds": 202.428
+        },
+        {
+          "word": "(Ae)",
+          "start_seconds": 202.428,
+          "end_seconds": 202.97
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC2_L3",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 200.272,
+      "onset_to_beat_ms": 12,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 200.4,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC2_L4",
+      "section": "Pre-Chorus 2",
+      "section_id": "PC2",
+      "original_text": "Mano tumse keh rahi hai",
+      "devanagari_text": "मानो तुमसे कह रही है",
+      "vocal_onset_seconds": 203.02,
+      "vocal_end_seconds": 205.9,
+      "display_start_seconds": 202.92,
+      "display_end_seconds": 206.12,
+      "start_seconds": 202.92,
+      "end_seconds": 206.12,
+      "start_frame": 6088,
+      "end_frame": 6184,
+      "vocal_onset_frame": 6091,
+      "word_timings": [
+        {
+          "word": "Mano",
+          "start_seconds": 203.02,
+          "end_seconds": 203.74
+        },
+        {
+          "word": "tumse",
+          "start_seconds": 203.74,
+          "end_seconds": 204.46
+        },
+        {
+          "word": "keh",
+          "start_seconds": 204.46,
+          "end_seconds": 204.82
+        },
+        {
+          "word": "rahi",
+          "start_seconds": 204.82,
+          "end_seconds": 205.54
+        },
+        {
+          "word": "hai",
+          "start_seconds": 205.54,
+          "end_seconds": 205.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC2_L4",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 203.059,
+      "onset_to_beat_ms": 39,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 203.02,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC2_L5",
+      "section": "Pre-Chorus 2",
+      "section_id": "PC2",
+      "original_text": "Tumse jo keh rahi hai",
+      "devanagari_text": "तुमसे जो कह रही है",
+      "vocal_onset_seconds": 206.24,
+      "vocal_end_seconds": 208.6,
+      "display_start_seconds": 206.14,
+      "display_end_seconds": 208.871,
+      "start_seconds": 206.14,
+      "end_seconds": 208.871,
+      "start_frame": 6184,
+      "end_frame": 6266,
+      "vocal_onset_frame": 6187,
+      "word_timings": [
+        {
+          "word": "Tumse",
+          "start_seconds": 206.24,
+          "end_seconds": 206.914
+        },
+        {
+          "word": "jo",
+          "start_seconds": 206.914,
+          "end_seconds": 207.251
+        },
+        {
+          "word": "keh",
+          "start_seconds": 207.251,
+          "end_seconds": 207.589
+        },
+        {
+          "word": "rahi",
+          "start_seconds": 207.589,
+          "end_seconds": 208.263
+        },
+        {
+          "word": "hai",
+          "start_seconds": 208.263,
+          "end_seconds": 208.6
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC2_L5",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 206.193,
+      "onset_to_beat_ms": 47,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 206.1,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "PC2_L6",
+      "section": "Pre-Chorus 2",
+      "section_id": "PC2",
+      "original_text": "Tum sun lo naa (Aa…)",
+      "devanagari_text": "तुम सुन लो ना (आ…)",
+      "vocal_onset_seconds": 208.991,
+      "vocal_end_seconds": 211.0,
+      "display_start_seconds": 208.891,
+      "display_end_seconds": 210.94,
+      "start_seconds": 208.891,
+      "end_seconds": 210.94,
+      "start_frame": 6267,
+      "end_frame": 6328,
+      "vocal_onset_frame": 6270,
+      "word_timings": [
+        {
+          "word": "Tum",
+          "start_seconds": 208.991,
+          "end_seconds": 209.326
+        },
+        {
+          "word": "sun",
+          "start_seconds": 209.326,
+          "end_seconds": 209.661
+        },
+        {
+          "word": "lo",
+          "start_seconds": 209.661,
+          "end_seconds": 209.996
+        },
+        {
+          "word": "naa",
+          "start_seconds": 209.996,
+          "end_seconds": 210.33
+        },
+        {
+          "word": "(Aa…)",
+          "start_seconds": 210.33,
+          "end_seconds": 211.0
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_PC2_L6",
+      "animation": "scale-in",
+      "nearest_beat_seconds": 208.91,
+      "onset_to_beat_ms": 81,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 208.82,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L1",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Kyun aise main takti hoon",
+      "devanagari_text": "क्यूँ ऐसे मैं तकती हूँ",
+      "vocal_onset_seconds": 211.06,
+      "vocal_end_seconds": 213.9,
+      "display_start_seconds": 210.96,
+      "display_end_seconds": 214.096,
+      "start_seconds": 210.96,
+      "end_seconds": 214.096,
+      "start_frame": 6329,
+      "end_frame": 6423,
+      "vocal_onset_frame": 6332,
+      "word_timings": [
+        {
+          "word": "Kyun",
+          "start_seconds": 211.06,
+          "end_seconds": 211.466
+        },
+        {
+          "word": "aise",
+          "start_seconds": 211.466,
+          "end_seconds": 212.277
+        },
+        {
+          "word": "main",
+          "start_seconds": 212.277,
+          "end_seconds": 212.683
+        },
+        {
+          "word": "takti",
+          "start_seconds": 212.683,
+          "end_seconds": 213.494
+        },
+        {
+          "word": "hoon",
+          "start_seconds": 213.494,
+          "end_seconds": 213.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L1",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 211.093,
+      "onset_to_beat_ms": 33,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 211.06,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L2",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Teri baatein kyun karti hoon",
+      "devanagari_text": "तेरी बातें क्यूँ करती हूँ",
+      "vocal_onset_seconds": 214.216,
+      "vocal_end_seconds": 216.9,
+      "display_start_seconds": 214.116,
+      "display_end_seconds": 217.06,
+      "start_seconds": 214.116,
+      "end_seconds": 217.06,
+      "start_frame": 6423,
+      "end_frame": 6512,
+      "vocal_onset_frame": 6426,
+      "word_timings": [
+        {
+          "word": "Teri",
+          "start_seconds": 214.216,
+          "end_seconds": 214.887
+        },
+        {
+          "word": "baatein",
+          "start_seconds": 214.887,
+          "end_seconds": 215.558
+        },
+        {
+          "word": "kyun",
+          "start_seconds": 215.558,
+          "end_seconds": 215.893
+        },
+        {
+          "word": "karti",
+          "start_seconds": 215.893,
+          "end_seconds": 216.564
+        },
+        {
+          "word": "hoon",
+          "start_seconds": 216.564,
+          "end_seconds": 216.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L2",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 214.227,
+      "onset_to_beat_ms": 11,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 214.22,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L3",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Main tum par kyun marti hoon",
+      "devanagari_text": "मैं तुम पर क्यूँ मरती हूँ",
+      "vocal_onset_seconds": 217.18,
+      "vocal_end_seconds": 219.7,
+      "display_start_seconds": 217.08,
+      "display_end_seconds": 219.8,
+      "start_seconds": 217.08,
+      "end_seconds": 219.8,
+      "start_frame": 6512,
+      "end_frame": 6594,
+      "vocal_onset_frame": 6515,
+      "word_timings": [
+        {
+          "word": "Main",
+          "start_seconds": 217.18,
+          "end_seconds": 217.54
+        },
+        {
+          "word": "tum",
+          "start_seconds": 217.54,
+          "end_seconds": 217.9
+        },
+        {
+          "word": "par",
+          "start_seconds": 217.9,
+          "end_seconds": 218.26
+        },
+        {
+          "word": "kyun",
+          "start_seconds": 218.26,
+          "end_seconds": 218.62
+        },
+        {
+          "word": "marti",
+          "start_seconds": 218.62,
+          "end_seconds": 219.34
+        },
+        {
+          "word": "hoon",
+          "start_seconds": 219.34,
+          "end_seconds": 219.7
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L3",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 217.014,
+      "onset_to_beat_ms": 166,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 217.18,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L4",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Tum khud hi dekho (Oh…)",
+      "devanagari_text": "तुम खुद ही देखो (ओह…)",
+      "vocal_onset_seconds": 219.92,
+      "vocal_end_seconds": 222.2,
+      "display_start_seconds": 219.82,
+      "display_end_seconds": 222.28,
+      "start_seconds": 219.82,
+      "end_seconds": 222.28,
+      "start_frame": 6595,
+      "end_frame": 6668,
+      "vocal_onset_frame": 6598,
+      "word_timings": [
+        {
+          "word": "Tum",
+          "start_seconds": 219.92,
+          "end_seconds": 220.246
+        },
+        {
+          "word": "khud",
+          "start_seconds": 220.246,
+          "end_seconds": 220.571
+        },
+        {
+          "word": "hi",
+          "start_seconds": 220.571,
+          "end_seconds": 220.897
+        },
+        {
+          "word": "dekho",
+          "start_seconds": 220.897,
+          "end_seconds": 221.549
+        },
+        {
+          "word": "(Oh…)",
+          "start_seconds": 221.549,
+          "end_seconds": 222.2
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L4",
+      "animation": "scale-in",
+      "nearest_beat_seconds": 219.8,
+      "onset_to_beat_ms": 120,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 219.92,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L5",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Mere haathon ki lakeeron mein",
+      "devanagari_text": "मेरे हाथों की लकीरों में",
+      "vocal_onset_seconds": 222.4,
+      "vocal_end_seconds": 225.4,
+      "display_start_seconds": 222.3,
+      "display_end_seconds": 225.56,
+      "start_seconds": 222.3,
+      "end_seconds": 225.56,
+      "start_frame": 6669,
+      "end_frame": 6767,
+      "vocal_onset_frame": 6672,
+      "word_timings": [
+        {
+          "word": "Mere",
+          "start_seconds": 222.4,
+          "end_seconds": 223.067
+        },
+        {
+          "word": "haathon",
+          "start_seconds": 223.067,
+          "end_seconds": 223.733
+        },
+        {
+          "word": "ki",
+          "start_seconds": 223.733,
+          "end_seconds": 224.067
+        },
+        {
+          "word": "lakeeron",
+          "start_seconds": 224.067,
+          "end_seconds": 225.067
+        },
+        {
+          "word": "mein",
+          "start_seconds": 225.067,
+          "end_seconds": 225.4
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L5",
+      "animation": "mask-reveal",
+      "nearest_beat_seconds": 222.238,
+      "onset_to_beat_ms": 162,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 222.4,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L6",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Tera kuchh apna hai",
+      "devanagari_text": "तेरा कुछ अपना है",
+      "vocal_onset_seconds": 225.68,
+      "vocal_end_seconds": 227.9,
+      "display_start_seconds": 225.58,
+      "display_end_seconds": 227.9,
+      "start_seconds": 225.58,
+      "end_seconds": 227.9,
+      "start_frame": 6767,
+      "end_frame": 6837,
+      "vocal_onset_frame": 6770,
+      "word_timings": [
+        {
+          "word": "Tera",
+          "start_seconds": 225.68,
+          "end_seconds": 226.42
+        },
+        {
+          "word": "kuchh",
+          "start_seconds": 226.42,
+          "end_seconds": 226.79
+        },
+        {
+          "word": "apna",
+          "start_seconds": 226.79,
+          "end_seconds": 227.53
+        },
+        {
+          "word": "hai",
+          "start_seconds": 227.53,
+          "end_seconds": 227.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L6",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 225.744,
+      "onset_to_beat_ms": 64,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 225.68,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L7",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Main kisse kya kahungi",
+      "devanagari_text": "मैं किस्से क्या कहूँगी",
+      "vocal_onset_seconds": 228.02,
+      "vocal_end_seconds": 230.6,
+      "display_start_seconds": 227.92,
+      "display_end_seconds": 230.82,
+      "start_seconds": 227.92,
+      "end_seconds": 230.82,
+      "start_frame": 6838,
+      "end_frame": 6925,
+      "vocal_onset_frame": 6841,
+      "word_timings": [
+        {
+          "word": "Main",
+          "start_seconds": 228.02,
+          "end_seconds": 228.389
+        },
+        {
+          "word": "kisse",
+          "start_seconds": 228.389,
+          "end_seconds": 229.126
+        },
+        {
+          "word": "kya",
+          "start_seconds": 229.126,
+          "end_seconds": 229.494
+        },
+        {
+          "word": "kahungi",
+          "start_seconds": 229.494,
+          "end_seconds": 230.6
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L7",
+      "animation": "word-reveal",
+      "nearest_beat_seconds": 228.182,
+      "onset_to_beat_ms": 162,
+      "onset_snapped_to_detected_vocal_onset": true,
+      "asr_estimate_seconds": 228.12,
+      "sync_confidence": "asr+onset-snapped (est. +/-0.2s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L8",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Tum aakar dekho…",
+      "devanagari_text": "तुम आकर देखो…",
+      "vocal_onset_seconds": 230.94,
+      "vocal_end_seconds": 232.8,
+      "display_start_seconds": 230.84,
+      "display_end_seconds": 233.13,
+      "start_seconds": 230.84,
+      "end_seconds": 233.13,
+      "start_frame": 6925,
+      "end_frame": 6994,
+      "vocal_onset_frame": 6928,
+      "word_timings": [
+        {
+          "word": "Tum",
+          "start_seconds": 230.94,
+          "end_seconds": 231.25
+        },
+        {
+          "word": "aakar",
+          "start_seconds": 231.25,
+          "end_seconds": 231.87
+        },
+        {
+          "word": "dekho…",
+          "start_seconds": 231.87,
+          "end_seconds": 232.8
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L8",
+      "animation": "fade-rise",
+      "nearest_beat_seconds": 230.969,
+      "onset_to_beat_ms": 29,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 230.94,
+      "sync_confidence": "asr-only (est. +/-0.3s)",
+      "alignment_method": "asr_anchor+onset_snap"
+    },
+    {
+      "id": "FC_L9",
+      "section": "Final Chorus",
+      "section_id": "FC",
+      "original_text": "Dekho naa (Aa…)",
+      "devanagari_text": "देखो ना (आ…)",
+      "vocal_onset_seconds": 233.25,
+      "vocal_end_seconds": 235.9,
+      "display_start_seconds": 233.15,
+      "display_end_seconds": 236.35,
+      "start_seconds": 233.15,
+      "end_seconds": 236.35,
+      "start_frame": 6994,
+      "end_frame": 7090,
+      "vocal_onset_frame": 6998,
+      "word_timings": [
+        {
+          "word": "Dekho",
+          "start_seconds": 233.25,
+          "end_seconds": 234.31
+        },
+        {
+          "word": "naa",
+          "start_seconds": 234.31,
+          "end_seconds": 234.84
+        },
+        {
+          "word": "(Aa…)",
+          "start_seconds": 234.84,
+          "end_seconds": 235.9
+        }
+      ],
+      "word_timing_source": "syllable-weighted estimate within measured line span",
+      "scene_id": "scene_FC_L9",
+      "animation": "scale-in",
+      "nearest_beat_seconds": 233.43,
+      "onset_to_beat_ms": 180,
+      "onset_snapped_to_detected_vocal_onset": false,
+      "asr_estimate_seconds": 233.25,
+      "sync_confidence": "inferred (pitch/structure, est. +/-0.3s)",
+      "alignment_method": "pitch_structure_inferred"
+    }
+  ]
+}

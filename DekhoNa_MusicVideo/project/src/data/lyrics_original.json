@@ -1,0 +1,72 @@
+{
+  "song": "Dekho Na",
+  "artist": "Saksham",
+  "note": "Authoritative Romanized lyrics, copied exactly as supplied. Do not edit spellings.",
+  "sections": [
+    { "id": "V1", "name": "Verse 1", "lines": [
+      { "id": "V1_L1", "text": "Kyun aise main takta hoon" },
+      { "id": "V1_L2", "text": "Teri baatein kyun karta hoon" },
+      { "id": "V1_L3", "text": "Main tum par kyun marta hoon" },
+      { "id": "V1_L4", "text": "Tum khud hi dekho…" } ] },
+    { "id": "V2", "name": "Verse 2", "lines": [
+      { "id": "V2_L1", "text": "Mere haathon ki lakeeron mein" },
+      { "id": "V2_L2", "text": "Tera kuchh apna hai" },
+      { "id": "V2_L3", "text": "Main kisse kya kahunga" },
+      { "id": "V2_L4", "text": "Tum aakar dekho…" } ] },
+    { "id": "PC1", "name": "Pre-Chorus 1", "lines": [
+      { "id": "PC1_L1", "text": "Main dil ki baat apne" },
+      { "id": "PC1_L2", "text": "Tere dil se hi kahunga" },
+      { "id": "PC1_L3", "text": "Main kaayar chaahe jitna (Aa)" },
+      { "id": "PC1_L4", "text": "Par milkar hi kahunga" },
+      { "id": "PC1_L5", "text": "Main milkar hi kahunga" },
+      { "id": "PC1_L6", "text": "Tum sun lena (Aa…)" } ] },
+    { "id": "C1", "name": "Chorus 1", "lines": [
+      { "id": "C1_L1", "text": "Kyun aise main takta hoon?" },
+      { "id": "C1_L2", "text": "Teri baatein kyun karta hoon" },
+      { "id": "C1_L3", "text": "Main tum par kyun marta hoon" },
+      { "id": "C1_L4", "text": "Tum khud hi dekho…" },
+      { "id": "C1_L5", "text": "Dekho na (Aa…)" } ] },
+    { "id": "PO", "name": "Post-Chorus", "lines": [
+      { "id": "PO_L1", "text": "Sa sa sa re ga sa…" },
+      { "id": "PO_L2", "text": "Sa sa sa re ga sa…" },
+      { "id": "PO_L3", "text": "Ma ga re ga sa…" } ] },
+    { "id": "V3", "name": "Verse 3", "lines": [
+      { "id": "V3_L1", "text": "Kya main kahoon… jo tu sun le…" },
+      { "id": "V3_L2", "text": "Laakhon chehron mein… tu mujhe chun le (Ae…)" },
+      { "id": "V3_L3", "text": "Do kadam hi sahi… mere sang toh chal" },
+      { "id": "V3_L4", "text": "Yoon jee loon main zindagi… apne inn do pal (Hmm…)" } ] },
+    { "id": "V4", "name": "Verse 4", "lines": [
+      { "id": "V4_L1", "text": "Haan, kyun karta hai bahaane" },
+      { "id": "V4_L2", "text": "Tu kitna bekhabar hai?" },
+      { "id": "V4_L3", "text": "Kaise tu yeh naa jaane (Ae)" },
+      { "id": "V4_L4", "text": "Dil kitna besabar hai" },
+      { "id": "V4_L5", "text": "Meri aankhon ke ishaare" },
+      { "id": "V4_L6", "text": "Tum samjho naa (Aa…)" } ] },
+    { "id": "V5", "name": "Verse 5", "lines": [
+      { "id": "V5_L1", "text": "Dil tere bin dhadke naa" },
+      { "id": "V5_L2", "text": "Meri palkein bhi jhapke naa" },
+      { "id": "V5_L3", "text": "Har pal tujhko main dekhoon" },
+      { "id": "V5_L4", "text": "Tu kyun naa jaane (Ae)" },
+      { "id": "V5_L5", "text": "Chal aa tujhko bata doon" },
+      { "id": "V5_L6", "text": "Meri chahat kaa afsaana" },
+      { "id": "V5_L7", "text": "Jo tujhko maine paaya" },
+      { "id": "V5_L8", "text": "Toh maine jaana (Aa)" } ] },
+    { "id": "PC2", "name": "Pre-Chorus 2", "lines": [
+      { "id": "PC2_L1", "text": "Mere haathon mein yeh mehendi" },
+      { "id": "PC2_L2", "text": "Tere hone se saji hai" },
+      { "id": "PC2_L3", "text": "Meri payal jo yeh khanke (Ae)" },
+      { "id": "PC2_L4", "text": "Mano tumse keh rahi hai" },
+      { "id": "PC2_L5", "text": "Tumse jo keh rahi hai" },
+      { "id": "PC2_L6", "text": "Tum sun lo naa (Aa…)" } ] },
+    { "id": "FC", "name": "Final Chorus", "lines": [
+      { "id": "FC_L1", "text": "Kyun aise main takti hoon" },
+      { "id": "FC_L2", "text": "Teri baatein kyun karti hoon" },
+      { "id": "FC_L3", "text": "Main tum par kyun marti hoon" },
+      { "id": "FC_L4", "text": "Tum khud hi dekho (Oh…)" },
+      { "id": "FC_L5", "text": "Mere haathon ki lakeeron mein" },
+      { "id": "FC_L6", "text": "Tera kuchh apna hai" },
+      { "id": "FC_L7", "text": "Main kisse kya kahungi" },
+      { "id": "FC_L8", "text": "Tum aakar dekho…" },
+      { "id": "FC_L9", "text": "Dekho naa (Aa…)" } ] }
+  ]
+}

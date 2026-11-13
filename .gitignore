@@ -1,0 +1,7 @@
+node_modules/
+*.mp4
+*.mp3
+*.raw
+renders/lyric_vid/
+renders/lyric_ref/
+DekhoNa_MusicVideo/timing/_*
